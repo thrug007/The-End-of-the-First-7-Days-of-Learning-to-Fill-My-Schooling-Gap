@@ -1,6 +1,5 @@
 from PyQt5.uic import loadUi
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidget, QTableWidgetItem
-# Make sure QTableWidgetItem is added here ^
 from random import randint
 from pickle import load,dump
 def play():
