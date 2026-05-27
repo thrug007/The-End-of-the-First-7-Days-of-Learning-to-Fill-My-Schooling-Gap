@@ -49,7 +49,7 @@ def verif(ch):
             test=False
     return test
 app = QApplication([])
-w = loadUi ("p.ui")
+w = loadUi ("free1v1.5.ui")
 w.show()
 w.bt1.clicked.connect (play)
 app.exec()
